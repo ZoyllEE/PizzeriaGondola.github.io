@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta nane="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>🍕Pizzeria Góndola | Mocejón🍕</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- SECCION INICIO -->
+   <section id="inicio">
+       <!-- ENCABEZADO -->
+    <header>
+        <div class="contenido-header">
+            <div class="logo">
+                <h1>Pizzeria Góndola<br><h1 class="logo2">Mocejón</h1></h1>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#inicio" onclick="seleccionar()">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#carta" onclick="seleccionar()">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>Carta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#recuerdos" onclick="seleccionar()">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Recuerdos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto" onclick="seleccionar()">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+           <div class="social">
+               <a href="Tel:+34825936161">
+                   <i class="fa-solid fa-phone"></i>
+               </a>
+               <a href="#">
+                   <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="#">
+                   <i class="fa-brands fa-square-facebook"></i>
+               </a>
+           </div>
+           <div class="nav-responsive" id="bar" onclick="mostrarOcultar()">
+               <i class="fa-solid fa-bars"></i>
+           </div>
+           
+        </div>
+       </header>
+       <!-- CARRUSEL -->
+       <div class="carrusel">
+           <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true, "pageDots":false, "autoPlay":true}'>
+               <div class="gallery-cell">
+                   <img src="img/img1.jpg" alt="">
+               </div>
+               <div class="gallery-cell">
+                   <img src="img/img2.jpg" alt="">
+               </div>
+               <div class="gallery-cell">
+                   <img src="img/img3.jpg" alt="">
+               </div>
+               <div class="gallery-cell">
+                   <img src="img/img4.jpg" alt="">
+               </div>
+               <div class="gallery-cell">
+                   <img src="img/img5.jpg" alt="">
+               </div>
+               
+               
+           </div>
+           <div class="info">
+               <h2>El Sabor a Hogar</h2>
+               <p>Variedad de sabores de tierra y mar, donde la elección de cada ingrediente esta a su alcance</p>
+           </div>
+       </div>
+    </section>
+    <!-- SECCION CARTA -->
+    <section id="carta">
+        <h2>Carta</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="info">
+                    <img src="img/carta1.jpg"  alt="">
+                    <img src="img/carta2.jpg"  alt="">
+                    <img src="img/carta3.jpg"  alt="">
+                    <img src="img/carta4.jpg"  alt="">
+                    <img src="img/carta5.jpg"  alt="">
+                    <img src="img/carta6.jpg"  alt="">
+                    <img src="img/carta7.jpg"  alt="">
+       
+       
+                   
+                </div>
+            </div>
+        </div>
+        <div class="Portes">
+            <h2>Portes y Condiciones</h2>
+            <div class="fila1">
+                <div class="item1">
+                    <div class="info1">
+                        <img src="img/portesmocejon.jpg"  alt="">
+                        <img src="img/portesmagan.jpg"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION ALBUM -->
+    <section id="recuerdos">
+        <h2>Recuerdos</h2>
+        <!-- Carrusel de recuerdos -->
+      <div class="carrusel-recuerdos">
+        <div class="galeria-recuerdos js-flickity" data-flickity-options='{"wrapAround":true, "pageDots":true}'>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/1.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/2.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/3.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/4.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/5.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/6.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/7.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/8.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/9.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/10.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/11.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/12.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/13.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/14.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="recuerdos/15.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+       </div>
+    </section>
+    <!-- SECCION C O N T A C T O -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Pizzeria Góndola<br><h1 class="logo2">Mocejón</h1></h1>
+            </div>
+            <div class="col">
+                <h3>Menu</h3>
+                <a href="">Inicio</a>
+                <a href="">Carta</a>
+                <a href="">Recuerdos</a>
+            </div>
+            <div class="col">
+                <h3>Direccion</h3>
+                <a href="https://www.google.es/maps/place/Pizzer%C3%ADa+Gondola+Mocej%C3%B3n,+C.+Tinte,+1+bis,+45270+Mocej%C3%B3n,+Toledo/@39.9407951,-3.9166359,15z/data=!4m6!3m5!1s0xd41e37b038ca483:0x8dff5a6b67fe01f4!8m2!3d39.9410763!4d-3.9162206!16s%2Fg%2F11r2r3w8fq">Calle Tinte 1 B<br>Mocejon (Toledo)</a>
+            </div>
+            <div class="col">
+                <h3>Teléfonos</h3>
+                <a href="Tel:+34825936161">825936161</a>
+                <a href="Tel:+34633152056">633152056</a>
+               
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/pizzeriagondolamocejon/?hl=es">Instagram</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <a href="https://m.facebook.com/100064189592386/">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
